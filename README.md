@@ -1,6 +1,6 @@
-# widget_presentation
+# Widget Presentation
 
-A new Flutter project.
+A Flutter app demonstrating **Tab**, **TabBar**, and **TabBarView** widgets for creating tabbed navigation interfaces.
 
 ## Getting Started
 

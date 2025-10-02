@@ -16,15 +16,47 @@ flutter pub get
 flutter run
 ```
 
-## Getting Started
+## Key Attribute of each Widget
 
-This project is a starting point for a Flutter application.
+### 1. **DefaultTabController - `length`**
 
-A few resources to get you started if this is your first Flutter project:
+Defines the total number of tabs. Must match the number of `Tab` widgets in `TabBar` and children in `TabBarView`.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```dart
+DefaultTabController(
+  length: 3,
+  ...
+)
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 2. **TabBar - `tabs`**
+
+A list of `Tab` widgets that appear as clickable labels. Each tab corresponds to a view in `TabBarView`.
+
+```dart
+TabBar(
+  tabs: [
+    Tab(text: 'Description'),
+    Tab(text: 'Specifications'),
+    Tab(text: 'Reviews'),
+  ]
+)
+```
+
+### 3. **TabBarView - `children`**
+
+A list of widgets that display the content for each tab. The order matches the `tabs` list in `TabBar`.
+
+```dart
+TabBarView(
+  children: [
+    DescriptionWidget(),
+    SpecificationsWidget(),
+    ReviewsWidget(),
+  ]
+)
+```
+
+## Resources
+
+[Flutter Tabs Documentation](https://docs.flutter.dev/cookbook/design/tabs)

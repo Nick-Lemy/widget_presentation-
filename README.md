@@ -2,6 +2,17 @@
 
 A Flutter app demonstrating **Tab**, **TabBar**, and **TabBarView** widgets for creating tabbed navigation interfaces.
 
+## Screenshot
+
+![Screenshot Image](image.png)
+
+## Run Instructions
+
+```bash
+flutter pub get
+flutter run
+```
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

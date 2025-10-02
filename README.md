@@ -9,7 +9,10 @@ A Flutter app demonstrating **Tab**, **TabBar**, and **TabBarView** widgets for 
 ## Run Instructions
 
 ```bash
+# run the following comand for installing the dependencies
 flutter pub get
+
+# for the following command for running the app
 flutter run
 ```
 
